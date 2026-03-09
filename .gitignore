@@ -1,0 +1,28 @@
+# Секреты (токены и т.д.)
+.env
+
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# ChromaDB / данные (опционально, раскомментируйте при необходимости)
+chroma_data/
+
+# IDE / ОС
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Оригинальные документы
+*.pdf
+
+# Ноутбуки
+*.ipynb

@@ -1,0 +1,24 @@
+# RAG-чат-бот: зависимости для прототипа
+# Python 3.10+
+
+# pypdf
+pypdf==3.17.4
+
+# PDF → Markdown (структура, таблицы)
+pymupdf4llm>=0.0.12
+
+# Эмбеддинги и LLM
+langchain>=0.1.0
+langchain-community>=0.0.20
+langchain-ollama>=0.1.0
+langchain-text-splitters>=0.0.1
+sentence-transformers>=2.2.0
+
+# Векторное хранилище (ChromaDB)
+chromadb>=0.4.22,<0.6
+
+# Telegram-бот (Aiogram 3)
+aiogram>=3.0,<4
+
+# Утилиты
+python-dotenv>=1.0.0
