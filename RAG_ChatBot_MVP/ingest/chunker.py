@@ -19,8 +19,8 @@ try:
     CHUNK_OVERLAP = config.CHUNK_OVERLAP
     SEPARATORS = config.SEPARATORS
 except ImportError:
-    CHUNK_SIZE = 400
-    CHUNK_OVERLAP = 50
+    CHUNK_SIZE = 800
+    CHUNK_OVERLAP = 120
     SEPARATORS = ["\n\n## ", "\n\n### ", "\n\n", "\n", " "]
 
 
